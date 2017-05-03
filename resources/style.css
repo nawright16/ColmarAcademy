@@ -1,0 +1,349 @@
+body {
+  font-size: 16px;
+  font-family: Helvetica, sans;
+  color: #3F4345;
+}
+
+.mobile, #phone {
+  display: none;
+}
+
+div {
+  /*border: 2px solid red;*/
+}
+
+.container {
+  padding: 32px 24px;
+  display: flex;
+}
+/* header section*/
+
+header {
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+
+}
+
+
+.head {
+    padding: auto 24px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li {
+  display: inline-flex;
+  padding-right: 1rem;
+}
+ #logo {
+   align-content: center;
+   display: inline-flex;
+ }
+
+ #name {
+   margin-top: 8px;
+ }
+/*top div*/
+
+#one {
+  background-color: #C0C0C0;
+}
+.left {
+  padding-right: 20px;
+  width: 60%;
+}
+
+.left img {
+  width: 100%;
+}
+
+.right {
+  padding-left: 20px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 40%;
+
+}
+
+.right h1 {
+  margin: 8rem auto 2rem auto;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+#one .right span {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+ #button {
+  background-color: #303030;
+  font-size: 1.5rem;
+  padding: 8px;
+  margin: 2rem auto;
+  color: white;
+  display: block;
+  width: 20rem;
+  text-align: center;
+}
+
+/*2nd div*/
+
+#two .left img {
+  padding-bottom: 2rem;
+  padding-right: 12px;
+}
+#two .left h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 24px;
+}
+
+#two .left p {
+  font-size: .8rem;
+  color: #000000;
+  margin-top: 2rem;
+}
+
+#two .right {
+  width: 423px;
+  justify-content:  center;
+
+}
+
+#two .right img {
+  height: 35%;
+  width: 35%;
+
+}
+
+ #two h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#info {
+  font-size: 1rem;
+  padding: 1rem;
+  display: flex;
+}
+
+
+.block {
+  display: block;
+  margin-top: 1.5rem;
+  padding-left: 1rem;
+  font-size: .9rem;
+}
+
+.block h4 {
+  padding-bottom: .5rem;
+}
+  #link {
+   padding: .5rem;
+   margin-top: .5rem;
+   color: #269DCD;
+ }
+ .guest {
+   background-color: #C0C0C0;
+ }
+
+/*3rd section*/
+
+#three {
+  display: block;
+  background-color: #E5E4E2;
+}
+
+#three h1{
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.top, .bottom {
+  display: inline-flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+#three #content {
+  width: 16rem;
+}
+
+#three img {
+  width: 100%;
+  margin-bottom: .5rem;
+}
+
+#content{
+  height: 300px;
+  margin: 16px;
+  background-color: white;
+  font-size: 1rem;
+
+}
+
+#content h3 {
+  font-size: 1.5rem;
+  padding: .5rem;
+}
+
+#content h4, p {
+  padding: .5rem;
+  font-size: 1rem;
+  color: #8D9294;
+}
+/*4th section*/
+#four {
+  display: block;
+}
+#four h1{
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 32px;
+}
+
+#thesisinfo {
+  display: flex;
+}
+
+#four video {
+  width: 100%;
+  padding-bottom: 24px;
+}
+
+#four .right {
+  width: 423px;
+  height: auto;
+  flex-direction: column;
+
+}
+
+#four .right img {
+  height: 136px;
+  width: auto;
+  display: inline-flex;
+  padding: 1rem;
+}
+
+#four #top  {
+  margin: 0;
+  display: flex;
+  background-color: #C0C0C0;
+}
+ #four #bottom {
+   margin: 0;
+   display: flex;
+
+ }
+
+#four h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+footer {
+  font-size: .8rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+}
+ footer li {
+   display: inline;
+   padding: .5rem;
+ }
+
+@media only screen and (max-width: 470px) {
+  body {
+    display: block;
+  }
+  #one, #two, #three, #four, #norm, #name,#logo {
+    display: none;
+  }
+
+  .mobile, #phone {
+    display: block;
+    padding: 16px;
+    font-size: 1.25rem;
+  }
+
+  #phone {
+    height: 64px;
+    text-align: center;
+    margin: auto;
+    padding: 16px;
+
+  }
+
+  #phone img {
+    padding: 0 16px;
+  }
+  .mobile-head {
+    height: 180px;
+    background-color: #808080;
+  }
+
+  .mobile h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 32px 16px 32px 0;
+  }
+ .mobile #button {
+   font-size: 1rem;
+   margin-top: 24px;
+   margin-bottom: 32px;
+   background-color: #808080;
+  }
+
+ .mobile h4 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  }
+
+  .mobile img {
+  width: 100%;
+  height: 190px;
+  }
+
+  #five {
+    background-color: #D3D3D3;
+  }
+
+  .mobile-text {
+    padding: 16px;
+    background-color: #D3D3D3;
+    margin-bottom: 8px;
+    font-weight: bold;
+    line-height: 1.3;
+  }
+
+  #six {
+    text-align: center;
+    background-color: #ffffff;
+    padding-top: 32px;
+    padding-bottom: 16px;
+  }
+
+  #six h1 {
+    padding: 0;
+  }
+
+  video {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 24px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .mobile .block{
+    line-height: 1.8;
+  }
+}
